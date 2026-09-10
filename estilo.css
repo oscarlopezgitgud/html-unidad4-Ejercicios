@@ -1,0 +1,32 @@
+
+/* Estilos generales del body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Fondo oscuro */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el menú */
+.menu {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center;    /* Centra los elementos */
+    padding-top: 50px;
+}
+
+
+.menu a {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quita subrayado */
+    margin: 15px 0; /* Espaciado vertical */
+    padding: 10px 20px;
+    transition: 0.3s; /* Suaviza los efectos */
+    border-radius: 5px;
+}
+
+/* Efecto hover */
+.menu a:hover {
+    background-color: #e01616; /* Color de fondo al pasar mouse */
+    transform: scale(1.1); /* Pequeño zoom */
+}
